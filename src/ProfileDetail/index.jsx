@@ -9,8 +9,12 @@ const ProfileDetail = () => {
     <div className="profileDetail">
       <PersonalInfo />
       <div className="btn-group">
-        <CustomButton />
-        <CustomButton />
+        <a href="#" target={"_blank"}>
+          <CustomButton />
+        </a>
+        <a href="#" target={"_blank"}>
+          <CustomButton />
+        </a>
       </div>
       <AboutInfo />
     </div>

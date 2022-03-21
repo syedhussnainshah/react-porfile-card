@@ -1,17 +1,27 @@
 .cardContainer {
   background-color: var(--black3);
-  width: 50%;
   padding: 25px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .profileCard {
   background-color: var(--black2);
   max-width: 320px;
   margin: auto;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  border-radius: inherit;
+  -webkit-border-radius: inherit;
+  -moz-border-radius: inherit;
+  -ms-border-radius: inherit;
+  -o-border-radius: inherit;
   overflow: hidden;
+}
+
+@media (max-width: 575.98px) {
+  .cardContainer {
+    padding: 15px;
+  }
 }
