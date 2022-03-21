@@ -13,7 +13,7 @@ const ProfileCard = ({ profile }) => {
         )}
 
         <ProfileDetail profileDetail={profile} />
-        <ProfileFooter />
+        <ProfileFooter socialLink={profile.socialLink} />
       </section>
     </div>
   );

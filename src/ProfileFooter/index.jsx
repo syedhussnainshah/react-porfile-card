@@ -2,11 +2,17 @@ import React from "react";
 import SocialLink from "../SocialLink";
 import "./style.css";
 
-const ProfileFooter = () => {
+const ProfileFooter = ({ socialLink }) => {
   return (
-    <div className="profileFooter">
-      <SocialLink />
-    </div>
+    <>
+      {socialLink && (
+        <div className="profileFooter">
+          {socialLink.map((link, index) => {
+            return <SocialLink link={link} key={index} />;
+          })}
+        </div>
+      )}
+    </>
   );
 };
 

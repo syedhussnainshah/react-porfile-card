@@ -28,17 +28,15 @@ let profile = {
   ],
   socialLink: [
     {
-      twitter: "twitter.com",
+      name: "twitter",
+      url: "twitter.com",
     },
     {
-      facebook: "facebook.com",
+      name: "facebook",
+      url: "facebook.com",
     },
-    {
-      instagram: "instagram.com",
-    },
-    {
-      github: "github.com",
-    },
+    { name: "instagram", url: "instagram.com" },
+    { name: "github", url: "github.com" },
   ],
 };
 
