@@ -9,7 +9,7 @@ const ProfileCard = ({ profile }) => {
     <div className="cardContainer">
       <section className="profileCard">
         <ProfileImage profileImage={profile.image} />
-        <ProfileDetail ProfileDetail={profile} />
+        <ProfileDetail profileDetail={profile} />
         <ProfileFooter />
       </section>
     </div>

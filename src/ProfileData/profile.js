@@ -3,7 +3,7 @@ let profile = {
   name: "Laura Smith",
   designation: "Frontend Developer",
   website: "laurasmith.website",
-  image: `${dummyImg}`,
+  image: dummyImg,
   description: [
     {
       title: "About",

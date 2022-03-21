@@ -1,12 +1,16 @@
 import React from "react";
 import "./style.css";
 
-const PersonalInfo = () => {
+const PersonalInfo = ({ profileInfo }) => {
   return (
     <div className="personalInfo">
-      <h1>Laura Smith</h1>
-      <p>Frontend Developer</p>
-      <a href="#">laurasmith.website</a>
+      {profileInfo.name && <h1>{profileInfo.name}</h1>}
+      {profileInfo.designation && <p>{profileInfo.designation}</p>}
+      {profileInfo.website && (
+        <a href={profileInfo.website} target={"_blank"}>
+          {profileInfo.website}
+        </a>
+      )}
     </div>
   );
 };

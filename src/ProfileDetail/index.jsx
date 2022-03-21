@@ -4,10 +4,10 @@ import CustomButton from "../CustomButton";
 import PersonalInfo from "../PersonalInfo";
 import "./style.css";
 
-const ProfileDetail = () => {
+const ProfileDetail = ({ profileDetail }) => {
   return (
     <div className="profileDetail">
-      <PersonalInfo />
+      <PersonalInfo profileInfo={profileDetail} />
       <div className="btn-group">
         <a href="#" target={"_blank"}>
           <CustomButton />
