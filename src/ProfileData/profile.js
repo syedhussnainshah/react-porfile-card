@@ -18,10 +18,12 @@ let profile = {
   ],
   professoanlLink: [
     {
-      linkedin: "linkedin.com",
+      title: "linkedin",
+      url: "linkedin.com",
     },
     {
-      email: "email.com",
+      title: "email",
+      url: "email.com",
     },
   ],
   socialLink: [

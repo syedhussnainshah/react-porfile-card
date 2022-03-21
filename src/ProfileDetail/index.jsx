@@ -7,15 +7,18 @@ import "./style.css";
 const ProfileDetail = ({ profileDetail }) => {
   return (
     <div className="profileDetail">
-      <PersonalInfo profileInfo={profileDetail} />
-      <div className="btn-group">
-        <a href="#" target={"_blank"}>
-          <CustomButton />
-        </a>
-        <a href="#" target={"_blank"}>
-          <CustomButton />
-        </a>
-      </div>
+      <PersonalInfo profileInfo={profileDetail.info} />
+      {profileDetail.professoanlLink && (
+        <div className="btn-group">
+          {profileDetail.professoanlLink.map((btn, index) => {
+            return (
+              <a href={btn.url} target={"_blank"} key={index}>
+                <CustomButton title={btn.title} />
+              </a>
+            );
+          })}
+        </div>
+      )}
       <AboutInfo />
     </div>
   );

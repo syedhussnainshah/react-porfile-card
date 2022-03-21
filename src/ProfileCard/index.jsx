@@ -12,7 +12,7 @@ const ProfileCard = ({ profile }) => {
           <ProfileImage profileImage={profile.info.image} />
         )}
 
-        <ProfileDetail profileDetail={profile.info} />
+        <ProfileDetail profileDetail={profile} />
         <ProfileFooter />
       </section>
     </div>
