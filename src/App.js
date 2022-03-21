@@ -2,7 +2,7 @@ import "./App.css";
 import ProfileCard from "./Components/ProfileCard";
 import profile from "./Api/profile";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import EditForm from "./Components/EditForm";
+import FormSection from "./Components/FormSection";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<ProfileCard profile={profile} />} />
-            <Route path="/edit" element={<EditForm />} />
+            <Route path="/edit" element={<FormSection />} />
           </Routes>
         </BrowserRouter>
       </section>

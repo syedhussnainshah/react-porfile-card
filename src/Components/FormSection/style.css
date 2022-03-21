@@ -1,4 +1,4 @@
-.editForm {
+.formSection {
   background-color: var(--black3);
   padding: 25px;
   border-radius: 10px;
@@ -9,7 +9,7 @@
 }
 
 @media (max-width: 575.98px) {
-  .editForm {
+  .formSection {
     padding: 15px;
   }
 }

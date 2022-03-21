@@ -1,0 +1,11 @@
+.profileCard {
+  background-color: var(--black2);
+  max-width: 320px;
+  margin: auto;
+  border-radius: inherit;
+  -webkit-border-radius: inherit;
+  -moz-border-radius: inherit;
+  -ms-border-radius: inherit;
+  -o-border-radius: inherit;
+  overflow: hidden;
+}
