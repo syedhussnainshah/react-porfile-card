@@ -1,0 +1,21 @@
+.socialLink {
+  display: inline;
+  width: 25px;
+  height: 25px;
+}
+
+.socialLink.facebook {
+  background: url("../Assets/Images/Icons/Facebook.svg");
+}
+
+.socialLink.instagram {
+  background: url("../Assets/Images/Icons/Instagram.svg");
+}
+
+.socialLink.twitter {
+  background: url("../Assets/Images/Icons/Twitter.svg");
+}
+
+.socialLink.github {
+  background: url("../Assets/Images/Icons/GitHub.svg");
+}

@@ -1,0 +1,9 @@
+.profileFooter {
+  background-color: var(--black4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}

@@ -1,0 +1,16 @@
+.description {
+  text-align: left;
+}
+.description h2 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: var(--white2);
+  text-align: left;
+}
+
+.description p {
+  font-size: 11px;
+  font-weight: normal;
+  color: var(--gray);
+}
