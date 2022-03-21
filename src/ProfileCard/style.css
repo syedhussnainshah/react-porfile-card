@@ -1,0 +1,11 @@
+.cardContainer {
+  background-color: var(--black3);
+  width: 50%;
+  padding: 25px;
+}
+
+.profileCard {
+  background-color: var(--black2);
+  max-width: 320px;
+  margin: auto;
+}

@@ -1,0 +1,24 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #1c1c1c;
+  --black2: #1a1b21;
+  --black3: #23252c;
+}
+
+body {
+  background-color: var(--black);
+}
+
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
