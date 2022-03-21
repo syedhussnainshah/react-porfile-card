@@ -15,7 +15,7 @@ const ProfileDetail = ({ profileDetail }) => {
               <a
                 href={btn.title === "email" ? `mailto:${btn.url}` : btn.url}
                 target={btn.title === "email" ? "_self" : "_blank"}
-                rel="noopener"
+                rel="noreferrer"
                 key={index}
               >
                 <CustomButton title={btn.title} />

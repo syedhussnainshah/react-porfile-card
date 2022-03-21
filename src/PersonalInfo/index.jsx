@@ -7,7 +7,7 @@ const PersonalInfo = ({ profileInfo }) => {
       {profileInfo.name && <h1>{profileInfo.name}</h1>}
       {profileInfo.designation && <p>{profileInfo.designation}</p>}
       {profileInfo.website && (
-        <a href={profileInfo.website} target={"_blank"} rel="noopener">
+        <a href={profileInfo.website} target={"_blank"} rel="noreferrer">
           {profileInfo.website}
         </a>
       )}

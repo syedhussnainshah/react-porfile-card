@@ -8,7 +8,7 @@ const SocialLink = ({ link }) => {
         <a
           href={link.url}
           target={"_blank"}
-          rel="noopener"
+          rel="noreferrer"
           className={
             link.name === "github"
               ? "github socialLink"
