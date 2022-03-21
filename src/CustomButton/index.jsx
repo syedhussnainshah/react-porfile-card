@@ -9,11 +9,11 @@ const CustomButton = ({ title }) => {
       {title && (
         <button
           type="button"
-          className={title == "email" ? "whiteBtn" : "blueBtn"}
+          className={title === "email" ? "whiteBtn" : "blueBtn"}
         >
           <span className="imgIcon">
             <img
-              src={title == "email" ? emailIcon : linkdinIcon}
+              src={title === "email" ? emailIcon : linkdinIcon}
               alt={`${title} Icon`}
             />
           </span>

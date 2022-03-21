@@ -13,8 +13,9 @@ const ProfileDetail = ({ profileDetail }) => {
           {profileDetail.professoanlLink.map((btn, index) => {
             return (
               <a
-                href={btn.title == "email" ? `mailto:${btn.url}` : btn.url}
-                target={btn.title == "email" ? "_self" : "_blank"}
+                href={btn.title === "email" ? `mailto:${btn.url}` : btn.url}
+                target={btn.title === "email" ? "_self" : "_blank"}
+                rel="noopener"
                 key={index}
               >
                 <CustomButton title={btn.title} />

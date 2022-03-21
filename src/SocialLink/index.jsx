@@ -8,18 +8,21 @@ const SocialLink = ({ link }) => {
         <a
           href={link.url}
           target={"_blank"}
+          rel="noopener"
           className={
-            link.name == "github"
+            link.name === "github"
               ? "github socialLink"
-              : link.name == "twitter"
+              : link.name === "twitter"
               ? "twitter socialLink"
-              : link.name == "facebook"
+              : link.name === "facebook"
               ? "facebook socialLink"
-              : link.name == "instagram"
+              : link.name === "instagram"
               ? "instagram socialLink"
               : ""
           }
-        ></a>
+        >
+          {" "}
+        </a>
       )}
     </>
   );
