@@ -1,0 +1,22 @@
+.personalInfo {
+  text-align: center;
+}
+.personalInfo h1 {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: var(--white);
+}
+
+.personalInfo p {
+  font-size: 13px;
+  font-weight: normal;
+  color: var(--orange);
+  text-transform: capitalize;
+}
+
+.personalInfo a {
+  color: var(--white2);
+  text-decoration: none;
+  font-size: 11px;
+}

@@ -8,10 +8,14 @@
   --black: #1c1c1c;
   --black2: #1a1b21;
   --black3: #23252c;
+  --white: #ffffff;
+  --white2: #f5f5f5;
+  --orange: #f3bf99;
 }
 
 body {
   background-color: var(--black);
+  font-family: "Inter", sans-serif;
 }
 
 .container {
