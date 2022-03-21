@@ -36,3 +36,10 @@ body {
     padding: 15px;
   }
 }
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+    background-color: var(--black);
+  }
+}
