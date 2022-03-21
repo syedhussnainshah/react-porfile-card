@@ -19,7 +19,7 @@ const ProfileDetail = ({ profileDetail }) => {
           })}
         </div>
       )}
-      <AboutInfo />
+      <AboutInfo about={profileDetail.description} />
     </div>
   );
 };

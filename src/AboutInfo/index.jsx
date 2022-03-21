@@ -2,12 +2,17 @@ import React from "react";
 import Description from "../Description";
 import "./style.css";
 
-const AboutInfo = () => {
+const AboutInfo = ({ about }) => {
   return (
-    <div className="aboutInfo">
-      <Description />
-      <Description />
-    </div>
+    <>
+      {about && (
+        <div className="aboutInfo">
+          {about.map((aboutData, index) => {
+            return <Description data={aboutData} key={index} />;
+          })}
+        </div>
+      )}
+    </>
   );
 };
 
