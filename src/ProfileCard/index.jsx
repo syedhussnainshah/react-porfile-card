@@ -4,12 +4,12 @@ import ProfileFooter from "../ProfileFooter";
 import ProfileImage from "../ProfileImage";
 import "./style.css";
 
-const ProfileCard = () => {
+const ProfileCard = ({ profile }) => {
   return (
     <div className="cardContainer">
       <section className="profileCard">
-        <ProfileImage />
-        <ProfileDetail />
+        <ProfileImage profileImage={profile.image} />
+        <ProfileDetail ProfileDetail={profile} />
         <ProfileFooter />
       </section>
     </div>

@@ -1,11 +1,12 @@
 import "./App.css";
 import ProfileCard from "./ProfileCard";
+import profile from "./ProfileData/profile";
 
 function App() {
   return (
     <div className="App">
       <section className="container">
-        <ProfileCard />
+        <ProfileCard profile={profile} />
       </section>
     </div>
   );

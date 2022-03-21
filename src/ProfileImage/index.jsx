@@ -2,10 +2,10 @@ import React from "react";
 import "./style.css";
 import dummyImg from "../Assets/Images/dummy.jpg";
 
-const ProfileImage = () => {
+const ProfileImage = ({ profileImage }) => {
   return (
     <div className="profileImg">
-      <img src={dummyImg} alt="Dummy Image" />
+      <img src={profileImage} alt="Dummy Image" />
     </div>
   );
 };
