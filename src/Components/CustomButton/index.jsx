@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
-import emailIcon from "../Assets/Images/Icons/Mail.svg";
-import linkdinIcon from "../Assets/Images/Icons/Linkedin.svg";
+import emailIcon from "../../Assets/Images/Icons/Mail.svg";
+import linkdinIcon from "../../Assets/Images/Icons/Linkedin.svg";
 
 const CustomButton = ({ title }) => {
   return (

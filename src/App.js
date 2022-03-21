@@ -1,6 +1,6 @@
 import "./App.css";
-import ProfileCard from "./ProfileCard";
-import profile from "./ProfileData/profile";
+import ProfileCard from "./Components/ProfileCard";
+import profile from "./Api/profile";
 
 function App() {
   return (
