@@ -1,9 +1,11 @@
 import dummyImg from "../Assets/Images/dummy.jpg";
 let profile = {
-  name: "Laura Smith",
-  designation: "Frontend Developer",
-  website: "laurasmith.website",
-  image: dummyImg,
+  info: {
+    name: "Laura Smith",
+    designation: "Frontend Developer",
+    website: "laurasmith.website",
+    image: dummyImg,
+  },
   description: [
     {
       title: "About",

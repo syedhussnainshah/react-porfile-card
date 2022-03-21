@@ -8,8 +8,11 @@ const ProfileCard = ({ profile }) => {
   return (
     <div className="cardContainer">
       <section className="profileCard">
-        <ProfileImage profileImage={profile.image} />
-        <ProfileDetail profileDetail={profile} />
+        {profile.info.image && (
+          <ProfileImage profileImage={profile.info.image} />
+        )}
+
+        <ProfileDetail profileDetail={profile.info} />
         <ProfileFooter />
       </section>
     </div>
