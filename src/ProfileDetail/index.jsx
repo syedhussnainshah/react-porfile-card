@@ -12,7 +12,11 @@ const ProfileDetail = ({ profileDetail }) => {
         <div className="btn-group">
           {profileDetail.professoanlLink.map((btn, index) => {
             return (
-              <a href={btn.url} target={"_blank"} key={index}>
+              <a
+                href={btn.title == "email" ? `mailto:${btn.url}` : btn.url}
+                target={btn.title == "email" ? "_self" : "_blank"}
+                key={index}
+              >
                 <CustomButton title={btn.title} />
               </a>
             );
