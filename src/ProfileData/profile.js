@@ -1,9 +1,9 @@
 import dummyImg from "../Assets/Images/dummy.jpg";
 let profile = {
   info: {
-    name: "Laura Smith",
+    name: "Muhammad Tahir",
     designation: "Frontend Developer",
-    website: "laurasmith.website",
+    website: "https://mt-projects.netlify.app/",
     image: dummyImg,
   },
   description: [
@@ -19,24 +19,24 @@ let profile = {
   professoanlLink: [
     {
       title: "linkedin",
-      url: "linkedin.com",
+      url: "https://www.linkedin.com/in/mtahir27/",
     },
     {
       title: "email",
-      url: "email.com",
+      url: "m.tahiridrees27@gmail.com",
     },
   ],
   socialLink: [
     {
       name: "twitter",
-      url: "twitter.com",
+      url: "https://twitter.com/MTahir27",
     },
     {
       name: "facebook",
-      url: "facebook.com",
+      url: "https://www.facebook.com/tahirfsd27/",
     },
-    { name: "instagram", url: "instagram.com" },
-    { name: "github", url: "github.com" },
+    { name: "instagram", url: "https://www.instagram.com/tahirfsd27/" },
+    { name: "github", url: "https://github.com/MTahir27" },
   ],
 };
 
