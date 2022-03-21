@@ -1,6 +1,6 @@
-.profileCard {
+form {
   background-color: var(--black2);
-  max-width: 320px;
+  width: 100%;
   margin: auto;
   border-radius: inherit;
   -webkit-border-radius: inherit;
@@ -8,4 +8,9 @@
   -ms-border-radius: inherit;
   -o-border-radius: inherit;
   overflow: hidden;
+  padding: 20px;
+}
+
+form > div:not(:last-of-type) {
+  margin-bottom: 20px;
 }
