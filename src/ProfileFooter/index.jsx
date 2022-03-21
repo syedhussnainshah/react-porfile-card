@@ -5,7 +5,7 @@ import "./style.css";
 const ProfileFooter = ({ socialLink }) => {
   return (
     <>
-      {socialLink && (
+      {socialLink[0] && (
         <div className="profileFooter">
           {socialLink.map((link, index) => {
             return <SocialLink link={link} key={index} />;

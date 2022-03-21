@@ -13,7 +13,9 @@ const ProfileCard = ({ profile }) => {
         )}
 
         <ProfileDetail profileDetail={profile} />
-        <ProfileFooter socialLink={profile.socialLink} />
+        {profile.socialLink && (
+          <ProfileFooter socialLink={profile.socialLink} />
+        )}
       </section>
     </div>
   );
