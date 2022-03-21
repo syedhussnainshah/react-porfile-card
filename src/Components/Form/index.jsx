@@ -70,7 +70,7 @@ const Form = () => {
         <InputField label="github" type="text" id="github" name="github" />
       </section>
       <div>
-        <CustomButton title="Submit Form" />
+        <CustomButton title="Submit Form" type="submit" />
       </div>
     </form>
   );

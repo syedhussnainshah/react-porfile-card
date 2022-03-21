@@ -3,13 +3,13 @@ import "./style.css";
 import emailIcon from "../../Assets/Images/Icons/Mail.svg";
 import linkdinIcon from "../../Assets/Images/Icons/Linkedin.svg";
 
-const CustomButton = ({ title }) => {
+const CustomButton = ({ title, ...otherButtonProps }) => {
   return (
     <>
       {title && (
         <button
-          type="button"
           className={title === "email" ? "whiteBtn" : "blueBtn"}
+          {...otherButtonProps}
         >
           <span className="imgIcon">
             <img
